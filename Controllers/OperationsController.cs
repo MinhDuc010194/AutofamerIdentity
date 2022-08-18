@@ -130,10 +130,10 @@ namespace IdentityMongo.Controllers
                 DeveiceID deviceId = new DeveiceID
                 {
                     id = Guid.NewGuid().ToString("d").Substring(1, 15),
-                    Exp = DateTime.Now.AddMinutes(2),
+                    Exp = DateTime.Now.AddMinutes(15),
                     deviceToken = new DeviceToken()
                     {
-                        Exp = DateTime.Now.AddMinutes(2),
+                        Exp = DateTime.Now.AddMinutes(15),
                         token = Guid.NewGuid().ToString("d").Substring(1, 15)
                     }
                 };
