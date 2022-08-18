@@ -124,8 +124,8 @@ namespace IdentityMongo.Controllers
                 if(string.IsNullOrEmpty(userDto.license_key) || !user.lisence_Keys.Any(x => x.key.Equals(userDto.license_key)))
                     return BadRequest("license key is incorect");
                 Lisence_key key = user.lisence_Keys.Find(x => x.key.Equals(userDto.license_key));
-                if (user.deviceIds.FindAll(x => !IsExpTime(x.Exp, 10)).Count >= 30)
-                    return BadRequest("this user can not have more than 20 device");
+                if (user.deviceIds.FindAll(x => !IsExpTime(x.Exp, 10)).Count >= key.max_device)
+                    return BadRequest($"this user can not have more than {key.max_device} device");
                 //throw new HttpStatusException(HttpStatusCode.NotFound,"this user can not have more than 20 device");
                 DeveiceID deviceId = new DeveiceID
                 {
