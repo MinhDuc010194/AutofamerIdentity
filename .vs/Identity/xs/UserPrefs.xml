@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{35862FB8-58A6-4E0D-93DA-13B79C6630B3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/DTO/UserDTO.cs">
+    <Files>
+      <File FileName="Controllers/OperationsController.cs" Line="92" Column="85" />
+      <File FileName="Program.cs" Line="91" Column="25" />
+      <File FileName="Models/DTO/UserDTO.cs" Line="19" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Identity" expanded="True">
+            <Node name="Identity" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="DTO" expanded="True">
+                  <Node name="UserDTO.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Identity PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
